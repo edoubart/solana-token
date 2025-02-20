@@ -270,3 +270,21 @@ Returns:
 900
 ```
 
+#### Send Token
+
+```
+spl-token transfer 5LSuWnxMAAgZuefifAoVoJhxPobXtb2oJ7HC3oh3MC9F 50 5scUks5x4vQrhX45xaUKhiDs59MXExZpBRfxggXjDY7P --url devnet --allow-unfunded-recipient --fund-recipient
+```
+
+Returns:
+
+```
+Transfer 50 tokens
+  Sender: 2eNkoxGS5gyhMBV4owYa4E7htZDg2he9NpwpQzN4jedj
+  Recipient: 5scUks5x4vQrhX45xaUKhiDs59MXExZpBRfxggXjDY7P
+  Recipient associated token account: 6cPwUwKrmPZhqX955mMwJA3acDwgeXnjA6kEciNrk2AJ
+  Funding recipient: 6cPwUwKrmPZhqX955mMwJA3acDwgeXnjA6kEciNrk2AJ
+
+Signature: 5UzbyP4nx3hXkcka4K4CJ3upq3373Vu4qdCpuQCLxuEVvKz7Y5BBgDtxYqXk7X4mamU9MYP65ReZW4MiBpUxq4Jt
+```
+
